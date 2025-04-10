@@ -16,6 +16,18 @@
   --ifm-color-primary-lightest: #aed6f1;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Reduce overall font size */
+  --ifm-font-size-base: 0.95rem;
+  --ifm-h1-font-size: 1.8rem;
+  --ifm-h2-font-size: 1.5rem;
+  --ifm-h3-font-size: 1.25rem;
+  --ifm-h4-font-size: 1.1rem;
+  --ifm-h5-font-size: 0.95rem;
+  --ifm-h6-font-size: 0.875rem;
+  
+  /* Adjust line height for better readability with smaller font */
+  --ifm-line-height-base: 1.65;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -28,4 +40,36 @@
   --ifm-color-primary-lighter: #aed6f1;
   --ifm-color-primary-lightest: #d6eaf8;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Additional adjustments for specific elements */
+.markdown {
+  font-size: 1.0rem;
+}
+
+article {
+  font-size: 0.95rem;
+}
+
+.navbar {
+  font-size: 0.9rem;
+}
+
+.footer {
+  font-size: 0.9rem;
+}
+
+/* Make code blocks a bit smaller too */
+code {
+  font-size: 90%;
+}
+
+/* Adjust sidebar items */
+.menu__link {
+  font-size: 0.9rem;
+}
+
+/* Adjust table of contents */
+.table-of-contents {
+  font-size: 0.85rem;
 }
